@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Styling */
+header {
+  background: #2d6187;
+  color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #1a3955;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(45, 97, 135, 0.9), rgba(0, 0, 0, 0.5)),
+    url("https://via.placeholder.com") no-repeat center/cover;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2d6187;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.1);
+}
+
+/* Menu styling */
+.menu {
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.menu h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2d6187;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin: 15px;
+  color: #2d6187;
+}
+
+.menu-item p {
+  margin: 0 15px 15px;
+  color: #555;
+}
+.menu-item button:hover {
+  background-color: #0056b3;
+}
+
+.menu-item button a {
+  color: white; /* White text for the button links */
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.menu-item button a:hover {
+  text-decoration: underline;
+}
+.menu-item button {
+  margin: 15px;
+  padding: 10px 20px;
+  background: #2d6187;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu-item button:hover {
+  background: #1a3955;
+}
+.section2 {
+  margin-top: 40px;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2d6187;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* ****************** */
+/* LOGIN PAGE STYLNG */
